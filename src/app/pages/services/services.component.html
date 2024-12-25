@@ -1,0 +1,17 @@
+<section class="services-section">
+    <h1>My Services</h1>
+    <p>I offer a wide range of photography services to cater to your needs. Explore the options below.</p>
+  
+    <div class="services-grid">
+        <div class="service-card" *ngFor="let service of services" appHover>
+            <div class="service-icon">
+              <img [src]="service.icon" alt="{{ service.title }}" />
+            </div>
+            <h2>{{ service.title }}</h2>
+            <p>{{ service.description }}</p>
+            <button class="cta-btn">Learn More</button>
+          </div>
+          
+    </div>
+  </section>
+  

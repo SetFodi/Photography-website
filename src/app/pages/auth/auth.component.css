@@ -1,0 +1,73 @@
+.auth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #121212);
+}
+
+.auth-container {
+  background: #222222;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.auth-container h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.auth-container p {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  background: #2a2a2a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #5a5fff;
+}
+
+button {
+  width: 100%;
+  background: linear-gradient(135deg, #5a5fff, #7a7fff);
+  color: #ffffff;
+  padding: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
